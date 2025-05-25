@@ -5,17 +5,17 @@ To write a python program to sort the first half of the list using merge sort wi
 
 ## Algorithm
 
-1. Divide the array into two halves recursively until each sub-array has one element.
+1.Divide the array into two halves recursively until each sub-array has one element.
 
-2. Use a merge() function to combine two sorted halves into a single sorted array.
+2.Use a merge() function to combine two sorted halves into a single sorted array.
 
-3. In merge(), copy the left and right sub-arrays into temporary arrays.
+3.In merge(), copy the left and right sub-arrays into temporary arrays.
 
-4. Compare elements from both sub-arrays and place the smaller one into the original array.
+4.Compare elements from both sub-arrays and place the smaller one into the original array.
 
-5. Copy any remaining elements from both sub-arrays into the main array.
+5.Copy any remaining elements from both sub-arrays into the main array.
 
-6. Repeat the process until the entire array is sorted.
+6.Repeat the process until the entire array is sorted.
   
 
 ## Program:
